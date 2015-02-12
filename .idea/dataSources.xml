@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1499915269">
+    <data-source source="LOCAL" name="Rails hoa-pri: development" uuid="b8562529-294c-442e-8c86-2b9f146fc9b7">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hoa-pri_development</jdbc-url>
+      <user-name>sheriwilson</user-name>
+      <user-password>dfc1dfc3dfd9dfc7dfcfdfdedf99df9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails hoa-pri: test" uuid="37332788-2308-4a57-9ff5-4da8d61215c4">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hoa-pri_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails hoa-pri: production" uuid="1bb53d79-53c1-42e9-b528-7856b6c12435">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hoa-pri_production</jdbc-url>
+      <user-name>sheriwilson</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe2dfe5dfebdf87dffadff8dfe3dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
