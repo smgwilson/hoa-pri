@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../changepoint_helper/.idea/changepoint_helper.iml" filepath="$PROJECT_DIR$/../changepoint_helper/.idea/changepoint_helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hoa-pri.iml" filepath="$PROJECT_DIR$/.idea/hoa-pri.iml" />
     </modules>
   </component>
