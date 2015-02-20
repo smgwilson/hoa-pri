@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # for devise configuration
+  config.action_mailer.default_url_options = { :host => 'https://nameless-waters-4502.herokuapp.com' }
 end
