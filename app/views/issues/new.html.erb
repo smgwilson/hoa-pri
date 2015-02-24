@@ -1,6 +1,6 @@
 <h1>New Issue</h1>
 
-<%= form_for :issue do |f| %>
+<%= form_for :issue, url :issues_path do |f| %>
     <p>
       <%= f.label :title %><br>
       <%= f.text_field :title %>
