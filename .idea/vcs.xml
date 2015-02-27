@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/../changepoint_helper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../post_overflow" vcs="Git" />
   </component>
 </project>
 
