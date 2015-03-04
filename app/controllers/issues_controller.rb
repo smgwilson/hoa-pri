@@ -11,14 +11,18 @@ class IssuesController < ApplicationController
 
 
   def new
-
+    @issue = Issue.new
   end
 
   def create
     @issue = Issue.new(issue_params)
 
-    @issue.save
-    redirect_to @issue
+    if @issue.save
+      redirect_to @issue
+    else
+      render 'new'
+    end
+
   end
 
   private
