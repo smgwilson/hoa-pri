@@ -14,6 +14,10 @@ class IssuesController < ApplicationController
     @issue = Issue.new
   end
 
+  def edit
+    @issue = Issue.find(params[:id])
+  end
+
   def create
     @issue = Issue.new(issue_params)
 
@@ -23,6 +27,16 @@ class IssuesController < ApplicationController
       render 'new'
     end
 
+  end
+
+  def update
+    @issue = Issue.find(params[:id])
+
+    if @issue.update(issue_params)
+      redirect_to @issue
+    else
+      render 'edit'
+    end
   end
 
   private
