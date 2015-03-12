@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1499915269">
+  <component name="DataSourceManagerImpl" format="xml" hash="2844826305">
     <data-source source="LOCAL" name="Rails hoa-pri: development" uuid="b8562529-294c-442e-8c86-2b9f146fc9b7">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -21,6 +21,26 @@
       <jdbc-url>jdbc:postgresql:hoa-pri_production</jdbc-url>
       <user-name>sheriwilson</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe2dfe5dfebdf87dffadff8dfe3dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails post_overflow: development" uuid="16eae589-e2e2-4cdd-8536-55be99fd1101">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:post_overflow_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails post_overflow: test" uuid="8fae71e4-4c1b-4e2d-8d0d-c5e3e6953975">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:post_overflow_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails post_overflow: production" uuid="7fe77ef4-46a4-4ce2-b968-02fd4f04c14c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:post_overflow_production</jdbc-url>
+      <user-name>post_overflow</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfe5dff9dffedff5dfe5dffcdfefdff8dfecdfe6dfe5dffddff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
   </component>

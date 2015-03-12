@@ -39,6 +39,13 @@ class IssuesController < ApplicationController
     end
   end
 
+  def destroy
+    @issue = Issue.find(params[:id])
+    @article.destroy
+
+    redirect_to articles_path
+  end
+
   private
   def issue_params
     params.require(:issue).permit(:title, :description)
