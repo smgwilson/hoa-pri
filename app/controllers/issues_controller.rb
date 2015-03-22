@@ -41,9 +41,9 @@ class IssuesController < ApplicationController
 
   def destroy
     @issue = Issue.find(params[:id])
-    @article.destroy
+    @issue.destroy
 
-    redirect_to articles_path
+    redirect_to issues_path
   end
 
   private
