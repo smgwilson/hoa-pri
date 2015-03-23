@@ -8,5 +8,28 @@
   <%= @issue.description %>
 </p>
 
+<h2>Notes:</h2>
+<% @issue.notes.each do |note| %>
+    <p>
+      <strong>Comment:</strong>
+      <%= note.item %>
+    </p>
+<% end %>
+
+<h2>Add a note:</h2>
+<%= form_for([@issue, @issue.notes.build]) do |f| %>
+    <p>
+        <%= f.label :item %>
+        <%= f.text_area :item %>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+
+<% end %>
+
+
+
 <%= link_to 'Edit', edit_issue_path(@issue) %>
 <%= link_to 'Back', issues_path %>

@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'notes/index'
+
+  get 'notes/new'
+
+  get 'notes/create'
+
+  get 'notes/read'
+
+  get 'notes/edit'
+
+  get 'notes/update'
+
+  get 'notes/destroy'
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -14,7 +28,9 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-      resources :issues
+      resources :issues do
+        resources :notes
+      end
 
   # Example resource route with options:
   #   resources :products do
