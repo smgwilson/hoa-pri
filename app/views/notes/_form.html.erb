@@ -1,0 +1,11 @@
+<%= form_for([@issue, @issue.notes.build]) do |f| %>
+    <p>
+      <%= f.label :item %>
+      <%= f.text_area :item %>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+
+<% end %>

@@ -12,18 +12,7 @@
 <%= render @issue.notes %>
 
 <h2>Add a note:</h2>
-<%= form_for([@issue, @issue.notes.build]) do |f| %>
-    <p>
-        <%= f.label :item %>
-        <%= f.text_area :item %>
-    </p>
-
-    <p>
-      <%= f.submit %>
-    </p>
-
-<% end %>
-
+<%= render 'notes/form'%>
 
 
 <%= link_to 'Edit', edit_issue_path(@issue) %>
