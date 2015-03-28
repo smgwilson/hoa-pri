@@ -21,6 +21,10 @@ class NotesController < ApplicationController
   end
 
   def destroy
+    @issue = Issue.find(params[:issue_id])
+    @note = @issue.notes.find(params[:id])
+    @note.destroy
+    redirect_to issue_path(@issue)
   end
 
   private

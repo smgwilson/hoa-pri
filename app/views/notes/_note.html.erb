@@ -2,3 +2,10 @@
   <strong>Comment:</strong>
   <%= note.item %>
 </p>
+
+<p>
+  <%= link_to 'Destroy note', [note.issue, note],
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %>
+
+</p>
