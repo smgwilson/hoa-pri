@@ -8,6 +8,7 @@ class NotesController < ApplicationController
   def create
     @issue = Issue.find(params[:issue_id])
     @note = @issue.notes.create(note_params)
+    @note.user = current_user
     redirect_to issue_path(@issue)
   end
 

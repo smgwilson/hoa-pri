@@ -8,12 +8,16 @@
   <%= @issue.description %>
 </p>
 
+<p>
+  <strong>Submitted By:</strong>
+  <%= @issue.user_id %>
+</p>
+
 <h2>Notes:</h2>
 <%= render @issue.notes %>
 
 <h2>Add a note:</h2>
 <%= render 'notes/form'%>
-
 
 <%= link_to 'Edit', edit_issue_path(@issue) %>
 <%= link_to 'Back', issues_path %>
