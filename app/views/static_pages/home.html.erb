@@ -1,2 +1,13 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Kings Court Homeowners Association") %>
+<h1>King's Court Homeowner's Association</h1>
+<p>
+    Welcome to the website for the King's Court Homeowners Association.
+</p>
+
+<p>
+  <ul>
+    <%= link_to "Meet the Board", static_pages_board_path %><br>
+    <%= link_to "Board Meeting Minutes", static_pages_minutes_path %>
+  </ul>
+
+</p>
