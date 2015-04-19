@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/board'
+
+  get 'static_pages/minutes'
+
   get 'notes/index'
 
   get 'notes/new'

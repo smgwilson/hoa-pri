@@ -7,6 +7,8 @@ class IssuesController < ApplicationController
 
   def show
     @issue = Issue.find(params[:id])
+    # @user = User.where(user_id: @issue.user_id)
+    @email = @issue.user.email
   end
 
 
