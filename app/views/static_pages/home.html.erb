@@ -1,13 +1,22 @@
 <% provide(:title, "Home") %>
-<h1>King's Court Homeowner's Association</h1>
+<h1>Welcome Home to King's Court</h1>
 <p>
-    Welcome to the website for the King's Court Homeowners Association.
+    Welcome to the website for the King's Court Homeowners Association.  Please feel free to contact us with comments or suggestions.
 </p>
 
-<p>
-  <ul>
-    <%= link_to "Meet the Board", static_pages_board_path %><br>
-    <%= link_to "Board Meeting Minutes", static_pages_minutes_path %>
+<div>
+  <h3>Welcome</h3>
+  <ul class="menu">
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
   </ul>
 
-</p>
+  <h3>Members</h3>
+  <ul class="menu">
+    <li><%= link_to "Meet the Board", static_pages_board_path %></li>
+    <li>Member Directory</li>
+    <li><%= link_to "Board Meeting Minutes Archive", static_pages_minutes_path %></li>
+    <li>Newsletter Archive</li>
+  </ul>
+</div>

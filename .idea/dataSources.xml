@@ -5,8 +5,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:hoa-pri_development</jdbc-url>
-      <user-name>sheriwilson</user-name>
-      <user-password>dfc1dfc3dfd9dfc7dfcfdfdedf99df9d</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails hoa-pri: test" uuid="37332788-2308-4a57-9ff5-4da8d61215c4">
@@ -19,8 +17,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:hoa-pri_production</jdbc-url>
-      <user-name>sheriwilson</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe2dfe5dfebdf87dffadff8dfe3dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails post_overflow: development" uuid="16eae589-e2e2-4cdd-8536-55be99fd1101">
@@ -39,10 +35,7 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:post_overflow_production</jdbc-url>
-      <user-name>post_overflow</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfe5dff9dffedff5dfe5dffcdfefdff8dfecdfe6dfe5dffddff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
   </component>
 </project>
-
