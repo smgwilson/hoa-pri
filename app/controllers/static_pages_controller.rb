@@ -9,4 +9,5 @@ class StaticPagesController < ApplicationController
 
   def minutes
   end
+
 end
