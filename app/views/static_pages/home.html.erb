@@ -3,16 +3,20 @@
   <h1>Welcome Home to King's Court</h1>
   <h6> Welcome to the website for the King's Court Homeowners Association.  Please feel free to contact us with comments or suggestions.</h6>
 </div>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 <div class="container">
   <div class="jumbotron">
-    <h3>Welcome</h3>
-    <ul class="menu">
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-    </ul>
-
     <h3>Members</h3>
     <ul class="menu">
       <li><%= link_to "Meet the Board", static_pages_board_path %></li>
