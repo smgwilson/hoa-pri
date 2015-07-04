@@ -1,4 +1,6 @@
 <% provide(:title, "Home") %>
+
+<!--Navigation-->
 <div id="heading" class="container">
   <h1><%=image_tag "Welcome-Home-Logo.jpg" %><span id="welcome">to King's Court Condominiums</span></h1>
   <h6> Welcome to the website for the King's Court Homeowners Association.  Please feel free to contact us with comments or suggestions.</h6>
@@ -16,6 +18,7 @@
       </div>
     </nav>
 
+<!--Carousel-->
 <div class="container">
   <div class="jumbotron">
     <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="width: 400px; margin: 0 auto">
@@ -58,13 +61,15 @@
   </div>
 </div>
 
+<--Members interest areas-->
 <div class="container">
   <div class="jumbotron">
     <h3 id="members">Members</h3>
     <ul class="menu">
-      <li><%= link_to "Meet the Board", static_pages_board_path %></li>
       <li>Member Directory</li>
+      <li><%= link_to "Meet the Board", static_pages_board_path %></li>
       <li><%= link_to "Board Meeting Minutes Archive", static_pages_minutes_path %></li>
+      <li>Board Meeting Agenda</li>
       <li>Newsletter Archive</li>
     </ul>
   </div>
