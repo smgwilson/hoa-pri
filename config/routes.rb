@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'static_pages/members'
 
+  get 'static_pages/contact'
+
   get 'notes/index'
 
   get 'notes/new'
