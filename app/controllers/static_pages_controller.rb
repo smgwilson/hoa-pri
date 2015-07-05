@@ -10,7 +10,7 @@ class StaticPagesController < ApplicationController
   def board
   end
 
-  def minutes
+  def members
   end
 
 end

@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/board'
 
-  get 'static_pages/minutes'
+  get 'static_pages/members'
 
   get 'notes/index'
 

@@ -11,8 +11,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get minutes" do
-    get :minutes
+  test "should get members" do
+    get :members
     assert_response :success
   end
 
