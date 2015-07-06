@@ -27,6 +27,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# gems for contact form
+gem 'mail_form'
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -45,6 +49,9 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '1.3.4'
+
+  # Manage procfile based applications
+  gem 'foreman'
 end
 
 group :test do
@@ -52,6 +59,8 @@ group :test do
   gem 'mini_backtrace', '0.1.3'
   gem 'guard-minitest', '2.3.1'
 
+  # Manage procfile based applications
+  gem 'foreman'
 end
 
 group :production do

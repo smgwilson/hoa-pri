@@ -46,3 +46,7 @@ config/secrets.yml
 *.bowerrc
 bower.json
 >>>>>>> 96a334e1eaf48a44f2ac32d866d94f1ccedd3ffb
+
+#ignore environmental variables for mailer configuration
+.env
+Procfile

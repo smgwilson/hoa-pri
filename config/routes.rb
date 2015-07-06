@@ -42,6 +42,8 @@ Rails.application.routes.draw do
         resources :notes
       end
 
+  resources "contacts", only: [:new, :create]
+
   # Example resource route with options:
   #   resources :products do
   #     member do
