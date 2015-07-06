@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'contacts/new'
+
+  get 'contacts/create'
+
   get 'static_pages/home'
 
   get 'static_pages/about'
@@ -42,7 +46,7 @@ Rails.application.routes.draw do
         resources :notes
       end
 
-  resources "contacts", only: [:new, :create]
+      resources :contacts, only: [:new, :create]
 
   # Example resource route with options:
   #   resources :products do
