@@ -3,37 +3,35 @@
 <!--Carousel-->
 
   <div class="jumbotron">
-    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="width: 400px; margin: 0 auto">
+    <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="width: 400px; margin: 0 auto">
       <!--Carousel indicators-->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="item1 active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="item2"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="item3"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <%=image_tag "IMG_0672.jpg" %>
-          <h3>Picture 1</h3>
+          <%=image_tag "kc5.jpg" %>
           <div class="carousel-caption">
             <h4>Our Home on Madison Street</h4>
           </div>
         </div>
         <div class="item">
-          <%=image_tag "IMG_1125.jpg" %>
-          <h3>Picture 2</h3>
+          <%=image_tag "kc4" %>
           <div class="carousel-caption">
             <h4>Our Courtyard</h4>
           </div>
         </div>
         <div class="item">
-          <h3>Picture 3</h3>
+          <%=image_tag "IMG_0672.jpg" %>
           <div class="carousel-caption">
-            <h4>Our Pool</h4>
+            <h4>Lake Merritt</h4>
           </div>
         </div>
       </div>
       <!-- Carousel controls -->
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+      <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
       </a>
       <a class="carousel-control right" href="#myCarousel" data-slide="next">
@@ -44,6 +42,26 @@
 
 <script>
     $(document).ready(function(){
-        $('#myCarousel').carousel();
+        // Activate Carousel
+        $("#myCarousel").carousel();
+
+        // Enable Carousel Indicators
+        $(".item1").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".item2").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".item3").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+
+        // Enable Carousel Controls
+        $(".left").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $(".right").click(function(){
+            $("#myCarousel").carousel("next");
+        });
     });
 </script>
