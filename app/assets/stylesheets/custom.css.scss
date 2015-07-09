@@ -1,9 +1,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-#welcome {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    text-align: center;
+@font-face {
+  font-family: 'pacificoregular';
+  src: url('fonts/pacifico-webfont.eot');
+  src: url('fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/pacifico-webfont.woff2') format('woff2'),
+  url('fonts/pacifico-webfont.woff') format('woff'),
+  url('fonts/pacifico-webfont.ttf') format('truetype'),
+  url('fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+#welcome1, #welcome2 {
+    font-family: "Pacifico", "Book Antiqua", Palatino, serif;
+}
+
+#welcome1 {
+  font-size: 200%;
+}
+
+#welcome2 {
+
 }
 
 .hidden { display: none; }
