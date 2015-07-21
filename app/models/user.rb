@@ -6,4 +6,6 @@ class User < ActiveRecord::Base
 
   has_many :issues
   has_many :notes
+  has_one :user_type
+
 end
