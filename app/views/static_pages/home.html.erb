@@ -1,42 +1,66 @@
 <% provide(:title, "Home") %>
 
-<!--Carousel-->
+<div class="row">
+  <div class="col-lg-5">
+    <div class="jumbotron pull-left">
+        <h3>Bulletin Board</h3>
+            <ul>
+                <li>
+                  Thank you to the families who attended the Annual Meeting in the Courtyard
+                  on June 20th.  Your involvement is needed and appreciated!
+                </li>
 
-  <div class="jumbotron">
-    <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="width: 400px; margin: 0 auto">
-      <!--Carousel indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="item1 active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="item2"></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="item3"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <%=image_tag "kc5.jpg" %>
-          <div class="carousel-caption">
-            <h4>Our Home on Madison Street</h4>
-          </div>
-        </div>
-        <div class="item">
-          <%=image_tag "kc4.jpg" %>
-          <div class="carousel-caption">
-            <h4>Our Courtyard</h4>
-          </div>
-        </div>
-        <div class="item">
-          <%=image_tag "IMG_0672.jpg" %>
-          <div class="carousel-caption">
-            <h4>Lake Merritt</h4>
-          </div>
-        </div>
-      </div>
-      <!-- Carousel controls -->
-      <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="carousel-control right" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                  anim id est laborum
+                </li>
+            </ul>
     </div>
   </div>
+  <div class="col-lg-7">
+    <!--Carousel-->
+    <div class="jumbotron pull-right">
+      <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="width: 500px; margin: 0 auto">
+        <!--Carousel indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="item1 active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="item2"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class="item3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <%=image_tag "kc5.jpg" %>
+            <div class="carousel-caption">
+              <h4>Our Home on Madison Street</h4>
+            </div>
+          </div>
+          <div class="item">
+            <%=image_tag "kc4.jpg" %>
+            <div class="carousel-caption">
+              <h4>Our Courtyard</h4>
+            </div>
+          </div>
+          <div class="item">
+            <%=image_tag "IMG_0672.jpg" %>
+            <div class="carousel-caption">
+              <h4>Lake Merritt</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
